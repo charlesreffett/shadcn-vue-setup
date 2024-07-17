@@ -1,5 +1,16 @@
-# Vue 3 + TypeScript + Vite
+# Setup showcasing the Vue port of Shadcn
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## [Shadcn-Vue](https://www.shadcn-vue.com)
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+### Shadcn-Vue notable links
+* [introduction](https://www.shadcn-vue.com/docs/introduction.html)
+* [quick install guide](https://www.shadcn-vue.com/docs/installation.html)
+* [components.json config](https://www.shadcn-vue.com/docs/components-json.html)
+* [themeing](https://www.shadcn-vue.com/docs/theming.html)
+
+Shadcn approach embeds components directly into the project 
+instead of being installed through a vendor package. 
+This means full control of the components is left up to the dev, additionally, 
+It also comes with support for TypeScript making it easy to know what properties and values a component has.
+
+![img.png](img.png)
